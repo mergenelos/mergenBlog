@@ -9,7 +9,7 @@ toc: true
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="container2ColumnAbout">
-<div class="card2Column"><img src="about.jpg" width="400px" style="border-radius:0.5rem;"/></div>
+<div class="card2Column"><img src="../about.jpg" width="400px" style="border-radius:0.5rem;"/></div>
 <div><div class="container3Row">
 <div class="card3Column"><b> -- Always a Learner -- </b></div>
 <div class="card3Column"><b>Name: </b>Murtaza Asaadi</div>
@@ -29,7 +29,7 @@ I’ve been passionate about software development and circuit design, starting w
 ---
 ## Education
 <div class="container2Column">
- <div class="card2Column" style="justify-content:center;align-items: center;display:flex;"> <img src="tabrizu.png" width="200px"/></div>
+ <div class="card2Column" style="justify-content:center;align-items: center;display:flex;"> <img src="../tabrizu.png" width="200px"/></div>
  <div class="card2Column">
     <p> 
     <b>Tabriz University <br>
@@ -47,7 +47,7 @@ I’ve been passionate about software development and circuit design, starting w
   </div>
 
 <div class="container2Column">
- <div class="card2Column" style="justify-content:center;align-items: center;display:flex;"> <img src="sharifu.png" width="150px"/></div>
+ <div class="card2Column" style="justify-content:center;align-items: center;display:flex;"> <img src="../sharifu.png" width="150px"/></div>
  <div class="card2Column"> 
     <p> 
     <b>Sharif University of Technology <br>
@@ -65,7 +65,7 @@ I’ve been passionate about software development and circuit design, starting w
   </div>
 
 <div class="container2Column">
- <div class="card2Column" style="justify-content:center;align-items: center;display:flex;"> <img src="tabrizu.png" width="200px"/></td></div>
+ <div class="card2Column" style="justify-content:center;align-items: center;display:flex;"> <img src="../tabrizu.png" width="200px"/></td></div>
  <div class="card2Column"> 
     <p> 
    <b> Tabriz University <br>
@@ -90,7 +90,7 @@ I’ve been passionate about software development and circuit design, starting w
 ### Executive 
  <table style="border: none;">
   <tr style="border: none;">
-<td style="width:20%;border: none;text-align: center;"><img src="ata.png" width="75px"/></td>
+<td style="width:20%;border: none;text-align: center;"><img src="../ata.png" width="75px"/></td>
 <td style="border: none;text-align: left;">
 <b>ATA Airlines - Full-time</b><br>
 <b>Maintenance Engineer</b><br>
@@ -98,7 +98,7 @@ I’ve been passionate about software development and circuit design, starting w
 </td>
 </tr>
 <tr style="border: none;">
-<td style="width:20%;border: none;text-align: center;"><img src="sama.png" width="75px"/></td>
+<td style="width:20%;border: none;text-align: center;"><img src="../sama.png" width="75px"/></td>
 <td style="border: none;text-align: left;">
 <b>Sama Industries - Full-time </b><br>
 <b>Head of Maintenance</b><br>
@@ -106,7 +106,7 @@ I’ve been passionate about software development and circuit design, starting w
 </td>
 </tr>
 <tr style="border: none;">
-<td style="width:20%;border: none;text-align: center;"><img src="ats.png" width="75px"/></td>
+<td style="width:20%;border: none;text-align: center;"><img src="../ats.png" width="75px"/></td>
 <td style="border: none;text-align: left;">
 <b>Araz Takin Sahand - Part-time</b><br>
 <b>Owner</b><br>
@@ -118,7 +118,7 @@ I’ve been passionate about software development and circuit design, starting w
 ### Teaching
  <table style="border: none;">
  <tr style="border: none;">
-<td style="width:20%;border: none;text-align: center;"><img src="sharifu.png" width="75px"/></td>
+<td style="width:20%;border: none;text-align: center;"><img src="../sharifu.png" width="75px"/></td>
 <td style="border: none;text-align: left;">
 <b>Laboratory Instructor</b><br>
 <b>Digital System Design Laboratory</b><br>
@@ -128,7 +128,7 @@ Sharif University of Technology<br>
 </td>
 </tr>
   <tr style="border: none;">
-<td style="width:20%;border: none;text-align: center;"><img src="tabrizu.png" width="100px"/></td>
+<td style="width:20%;border: none;text-align: center;"><img src="../tabrizu.png" width="100px"/></td>
 <td style="border: none;text-align: left;">
 <b>Teaching Assistant</b><br>
 <b>Interface Circuits</b><br>
@@ -147,7 +147,7 @@ Jan - Jun 2016 <br>
 ### Vocational Education & Training
  <table style="border:none;">
   <tr style="border: none;">
-    <td style="width:20%;border: none;text-align: center;"><img src="easa.png" width="100px"/></td>
+    <td style="width:20%;border: none;text-align: center;"><img src="../easa.png" width="100px"/></td>
     <td style="border: none;">  
     <p> 
    <b> European Union Aviation Safety Agency </b><br>
@@ -160,7 +160,7 @@ Jan - Jun 2016 <br>
     </p>
     </td>
   <tr style="border: none;">
-    <td style="width:20%;border: none;text-align: center;"><img src="fanni.png" width="100px"/></td>
+    <td style="width:20%;border: none;text-align: center;"><img src="../fanni.png" width="100px"/></td>
     <td style="border: none;">  
     <p> 
    <b> Iran Technical and Vocational Training Organization </b><br>
@@ -174,7 +174,7 @@ Jan - Jun 2016 <br>
     </td>
   </tr>
   <tr style="border: none;">
-    <td style="width:20%;border: none;text-align: center;"><img src="mst.png" width="100px"/></td>
+    <td style="width:20%;border: none;text-align: center;"><img src="../mst.png" width="100px"/></td>
     <td style="border: none;">  
     <p> 
    <b> Tabriz Machinery Manufacturing Co. </b><br>
@@ -188,7 +188,7 @@ Jan - Jun 2016 <br>
 ### Massive Open Online Courses
  <table style="border: none;">
   <tr style="border: none;">
-    <td style="width:20%;border: none;text-align: center;"><img src="coursera.png" width="100px"/></td>
+    <td style="width:20%;border: none;text-align: center;"><img src="../coursera.png" width="100px"/></td>
     <td style="border: none;">  
     <p> 
    <b> Coursera </b><br>
@@ -200,7 +200,7 @@ Jan - Jun 2016 <br>
     </td>
   </tr>
   <tr style="border: none;">
-    <td style="width:20%;border: none;text-align: center;"><img src="faradars.png" width="100px"/></td>
+    <td style="width:20%;border: none;text-align: center;"><img src="../faradars.png" width="100px"/></td>
     <td style="border: none;">  
     <p> 
    <b> Faradars </b><br>
@@ -412,23 +412,23 @@ Jan - Jun 2016 <br>
 ### Spoken Languages
 
 <div class="container4Column">
-<div class="card4Column"><img src="turkishLang.png" width="20px"/><b> Turkish (AZ,TR):</b></div>
+<div class="card4Column"><img src="../turkishLang.png" width="20px"/><b> Turkish (AZ,TR):</b></div>
 <div class="card4Column">Native</div>
-<div class="card4Column"><img src="englishLang.png" width="20px"/><b> English:</b></div>
+<div class="card4Column"><img src="../englishLang.png" width="20px"/><b> English:</b></div>
 <div class="card4Column">Fluent</div>
 </div>
 
 <div class="container4Column">
-<div class="card4Column"><img src="persianLang.png" width="20px"/><b> Persian:</b></div>
+<div class="card4Column"><img src="../persianLang.png" width="20px"/><b> Persian:</b></div>
 <div class="card4Column">Fluent</div>
-<div class="card4Column"><img src="germanLang.png" width="20px"/><b> German:</b></div>
+<div class="card4Column"><img src="../germanLang.png" width="20px"/><b> German:</b></div>
 <div class="card4Column">Proficient (B1)</div>
 </div>
 
 <div class="container4Column">
-<div class="card4Column"><img src="frenchLang.png" width="20px"/><b> French:</b></div>
+<div class="card4Column"><img src="../frenchLang.png" width="20px"/><b> French:</b></div>
 <div class="card4Column">Basic (A2)</div>
-<div class="card4Column"><img src="russianLang.png" width="20px"/><b> Russian:</b></div>
+<div class="card4Column"><img src="../russianLang.png" width="20px"/><b> Russian:</b></div>
 <div class="card4Column">Basic (A2)</div>
 </div>
 

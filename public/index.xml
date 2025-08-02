@@ -97,7 +97,7 @@
       <description>&lt;!-- Font Awesome Icon Library --&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&#34;&gt;
 &lt;div class=&#34;container2ColumnAbout&#34;&gt;
-&lt;div class=&#34;card2Column&#34;&gt;&lt;img src=&#34;about.jpg&#34; width=&#34;400px&#34; style=&#34;border-radius:0.5rem;&#34;/&gt;&lt;/div&gt;
+&lt;div class=&#34;card2Column&#34;&gt;&lt;img src=&#34;../about.jpg&#34; width=&#34;400px&#34; style=&#34;border-radius:0.5rem;&#34;/&gt;&lt;/div&gt;
 &lt;div&gt;&lt;div class=&#34;container3Row&#34;&gt;
 &lt;div class=&#34;card3Column&#34;&gt;&lt;b&gt; -- Always a Learner -- &lt;/b&gt;&lt;/div&gt;
 &lt;div class=&#34;card3Column&#34;&gt;&lt;b&gt;Name: &lt;/b&gt;Murtaza Asaadi&lt;/div&gt;
