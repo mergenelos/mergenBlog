@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Murtaza&#39;s Blog</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on Murtaza&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/about/</guid>
+      
+      <description>&lt;!-- Font Awesome Icon Library --&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;../about.jpg&#34; alt=&#34;Murtaza Asaadi&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;container3Column&#34;&gt;
+&lt;div class=&#34;card3Column&#34;&gt;&lt;b&gt;Name: &lt;/b&gt;Murtaza Asaadi&lt;/div&gt;
+&lt;div class=&#34;card3Column&#34;&gt;&lt;b&gt;B.day: &lt;/b&gt;Dec. 26th 1993&lt;/td&gt;&lt;/div&gt;
+&lt;div class=&#34;card3Column&#34;&gt;&lt;b&gt;Mail: &lt;/b&gt; &lt;a href=&#34;mailto:mergenelos@gmail.com&#34;&gt;mergenelos@gmail.com&lt;/a&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&#39;text-align: justify;&#39;&gt;
+I’ve been passionate about software development and circuit design, starting with programming on an old DOS computer. I quickly mastered languages like BASIC, C, and C++, and my curiosity led me to explore Linux, which sparked a lasting interest in open-source software. I soon participated in local discussions, learning about kernel development, networking, and more. This passion carried me through my academic studies in Electronics Engineering at Tabriz University, where I deepened my understanding of circuits, control systems, and microelectronics.
+&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

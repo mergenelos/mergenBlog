@@ -1,0 +1,28 @@
+/* Scroll to top button */
+html {
+    scroll-behavior: smooth;
+}
+
+#totop {
+    visibility: hidden;
+    color: $text-base-color;
+    position: fixed;
+    bottom: 60px;
+    right: 50px;
+    z-index: 1;
+    border-radius: 0.5rem;
+    background-color: $go-top-bg;
+    transition: visibility .5s,opacity .8s linear;
+
+    &:hover {
+        background-color: $go-top-bg-hover;
+    }
+
+    // center align icon vertically
+    svg {
+        margin: auto;
+        display: block;
+        height: 50px;
+        width: 50px;
+    }
+}

@@ -1,0 +1,112 @@
+.button {
+  background-color: transparent;
+  text-align: center;
+  color: $text-base-color;
+  padding: 10px 20px; /* Padding */
+  border: 1px solid blue; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: 10px;
+}
+
+.button:hover,.button:focus {
+  border: 1px solid green; /* Background color changes on hover */
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button:active {
+  background-color: #F0F0F1;
+  border-color: green;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.skillsSize {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  text-align: left;
+  width: 25%;
+  padding: 0px;
+  margin-top: 0px;
+}
+.row{
+    margin-top:2px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.checked {
+  color: orange;
+  margin-left: 2px;
+}
+
+.unchecked {
+  color: $text-base-color;
+  margin-left: 2px;
+}
+
+
+.card3Column{
+    margin: 2px;
+}
+.card2Column{
+    margin: 5px;
+}
+
+.card4Column{
+    margin: 5px;
+}
+
+.container3Column{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.container3Row{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.container2Column{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+}
+.container2ColumnAbout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.container4Column{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+@media only screen and (max-width:1110px){
+    .container3Column{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    } 
+}
+@media only screen and (max-width:700px){
+    .container3Column{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .container2Column{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .container2ColumnAbout{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .container4Column{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    } 
+}
+
