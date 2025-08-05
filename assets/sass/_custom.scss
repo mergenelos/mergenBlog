@@ -80,6 +80,10 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
+.container2ColumnPagination{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
 .container4Column{
     display: grid;
     grid-template-columns: repeat(4,1fr);

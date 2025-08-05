@@ -36,23 +36,23 @@
     {{- $prevPageIndex := sub $curPageIndex 1 -}}
     {{- $nextPageIndex := add $curPageIndex 1 -}}
 
-    <div class="pagination_buttons" style="margin-top: 10x">
+    <div class="container2ColumnPagination" style="margin-top: 20px">
+    <div class="card2ColumnPagination">
     {{- with (index .Pages.ByDate $prevPageIndex) -}}
-      <span class="button previous">
-        <a href="{{ .Permalink }}" title="{{ .Title }}">
-          <span class="button_icon">←</span>
+        <a class="paginationButtonPrev" href="{{ .Permalink }}" title="{{ .Title }}">
+          <span class="button_icon"><<  </span>
           <span class="button_text">{{ .Title }}</span>
         </a>
-      </span>
     {{- end -}}
+    </div>
+    <div class="card2ColumnPagination">
     {{- with (index .Pages.ByDate $nextPageIndex) -}}
-      <span class="button next">
-        <a href="{{ .Permalink }}" title="{{ .Title }}">
+        <a class="paginationButtonNext" href="{{ .Permalink }}" title="{{ .Title }}">
           <span class="button_text">{{ .Title }}</span>
-          <span class="button_icon">→</span>
+          <span class="button_icon">  >></span>
         </a>
-      </span>
     {{- end -}}
+    </div>
     </div>
 
   {{- end -}}

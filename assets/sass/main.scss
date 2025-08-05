@@ -89,6 +89,8 @@ $on-widescreen: 1152px;
 
 @import "series";
 
+@import "notice";
+
 {{ with .Site.Params.goToTop }}
 @import "goToTop";
 {{ end }}

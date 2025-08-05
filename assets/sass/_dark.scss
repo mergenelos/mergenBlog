@@ -281,7 +281,14 @@
   background-color: $gray;
   border-color: green;
 }
+.paginationButtonPrev{
+  background-color: $dark-toc-bg;
 }
+.paginationButtonNext{
+  background-color: $dark-toc-bg;
+}
+}
+
 
 // support JS disabled environment with media query
 @media (prefers-color-scheme: dark) {
