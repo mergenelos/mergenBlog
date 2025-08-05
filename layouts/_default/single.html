@@ -8,21 +8,23 @@
                 {{ with .Date }}
                 {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
                 <div class="post-meta">
-                    <time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ . | time.Format $configDateFormat }} </time>
+                   <time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ . | time.Format $configDateFormat }} </time>
                 </div>
                 {{ end }}
+                
             </header>
-            {{ partial "toc.html" .}}
 
         {{- with (.GetTerms "series") -}}
         {{- $series := slice -}}
         {{- range . -}}
             {{- $series = $series | append (printf "<a href=\"%s\">%s</a>" .Permalink .Title) -}}
         {{- end -}}
-        <div class="notice-info post-series-top">
+        <div class="notice-info post-series-top" style="margin-bottom:20px;">
             <p>This post is part of the {{ (delimit $series ", " " and ") | safeHTML }} series.</p>
         </div>
         {{- end -}}
+
+            {{ partial "toc.html" .}}
 
             <div class="page-content">
                 {{ .Content }}
