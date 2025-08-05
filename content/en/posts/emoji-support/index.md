@@ -3,8 +3,9 @@ title: Emoji Support
 date: 2023-02-01
 author: Hugo Authors
 description: Guide to emoji usage in Hugo
-tags:
-  - emoji
+tags: [emoji,markdown,content]
+categories: [development,publishing]
+series: ['ASP.NET Core Code Coverage']
 ---
 
 Emoji can be enabled in a Hugo project in a number of ways. 

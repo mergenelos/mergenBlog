@@ -13,9 +13,27 @@
                 {{ end }}
             </header>
             {{ partial "toc.html" .}}
+
+        {{- with (.GetTerms "series") -}}
+        {{- $series := slice -}}
+        {{- range . -}}
+            {{- $series = $series | append (printf "<a href=\"%s\">%s</a>" .Permalink .Title) -}}
+        {{- end -}}
+        <div class="notice-info post-series-top">
+            <p>This post is part of the {{ (delimit $series ", " " and ") | safeHTML }} series.</p>
+        </div>
+        {{- end -}}
+
             <div class="page-content">
                 {{ .Content }}
             </div>
+		
+            {{- if .Params.series -}}
+            <div class="post-series-bottom">
+                {{ partial "series.html" . }}
+            </div>
+            {{- end -}}
+
         </article>
         {{- partial "comments.html" . -}}
     </main>

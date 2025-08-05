@@ -1,0 +1,60 @@
+{{- with (.GetTerms "series") -}}
+  {{- range . -}}
+    <div class="pagination_title">
+      <span class="pagination_title-h">
+          {{ .Title }} series
+      </span>
+      <hr />
+    </div>
+    {{- $series := .Pages.ByDate -}}
+    <details class="toc">
+      <summary>
+        <span>
+          All posts in <strong>{{ .Title }}</strong> series
+        </span>
+      </summary>
+      <ol>
+        {{- range $series -}}
+        <li>
+          {{- if eq .File.UniqueID $.File.UniqueID -}}
+            <b>{{ .Title }}</b>
+          {{- else -}}
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{- end -}}
+        </li>
+        {{- end -}}
+      </ol>
+    </details>
+
+    {{- $curPageIndex := 0 -}}
+    {{- range $idx, $page := .Pages.ByDate -}}
+      {{- if eq $page $ -}}
+        {{ $curPageIndex = $idx }}
+      {{- end -}}
+    {{- end -}}
+
+    {{- $prevPageIndex := sub $curPageIndex 1 -}}
+    {{- $nextPageIndex := add $curPageIndex 1 -}}
+
+    <div class="pagination_buttons" style="margin-top: 10x">
+    {{- with (index .Pages.ByDate $prevPageIndex) -}}
+      <span class="button previous">
+        <a href="{{ .Permalink }}" title="{{ .Title }}">
+          <span class="button_icon">←</span>
+          <span class="button_text">{{ .Title }}</span>
+        </a>
+      </span>
+    {{- end -}}
+    {{- with (index .Pages.ByDate $nextPageIndex) -}}
+      <span class="button next">
+        <a href="{{ .Permalink }}" title="{{ .Title }}">
+          <span class="button_text">{{ .Title }}</span>
+          <span class="button_icon">→</span>
+        </a>
+      </span>
+    {{- end -}}
+    </div>
+
+  {{- end -}}
+{{- end -}}
+
